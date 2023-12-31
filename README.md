@@ -9,11 +9,14 @@ The make_polynomial function generates the input data X by sampling random value
 
 ## Pseudocode of the Algorithm
 
+```
+Procedure make_polynomial
 Initialize the number of samples, features, degree, noise, and random state.
-Generate the input data X by sampling random values from a uniform distribution over a specified range.
-Add noise to the input data by adding random values from a normal distribution with a specified scale.
-Generate the output data y by applying a polynomial function to the sum of all features in X.
-Return the input data X and the output data y.
+1. Generate the input data X by sampling random values from a uniform 2. distribution over a specified range.
+3. Add noise to the input data by adding random values from a normal 4. distribution with a specified scale.
+5. Generate the output data y by applying a polynomial function to the sum of all features in X.
+6. Return the input data X and the output data y.
+```
 
 ## Modules
 
